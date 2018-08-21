@@ -2,9 +2,10 @@ let firstName = "Matthew";
 let middleName = "Allen";
 let lastName = "Campbell";
 let fullName = firstName + " " + middleName + " " + lastName;
+let fullNameCaps = fullName.toUpperCase(); // Should modify string to ALL CAPS.
 
 // Calls displayDescription() Function
-displayDescription(fullName, "(Aspiring) Full Stack Developer / Photo Studio Associate", "I like pizza");
+displayDescription(fullNameCaps, "(Aspiring) Full Stack Developer / Photo Studio Associate", "I like pizza");
 
 // Function that accepts x3 arguments (Name, Career, Description), formats accordingly and prints them to the Console. 
 function displayDescription(myName, myCareer, myDescription) {
